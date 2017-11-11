@@ -1,8 +1,27 @@
-body{
-	background-color: red;
+
+#main-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 50px;
+	flex-direction: column;
 }
+.sub-title{font-size: 30px;}
+#title{font-size: 45px; font-weight: bold;}
 .link{
-	padding: 10px;
-	border: 3px solid blue;
-	border-radius: 5px;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 25px;
+	text-decoration: None;
+	margin: 10px;
+}
+.on{
+	background: #F5F5F5;
+	border: 3px solid black;
+	color: black;
+}
+.off{
+	background: #212121;
+	border: 3px solid #E0E0E0;
+	color: white;
 }
